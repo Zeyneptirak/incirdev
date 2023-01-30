@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+  li{
+    @apply p-4
+  }
+  button{
+    @apply text-white border  border-indigo-600
+    hover:bg-transparent bg-[#3E00FF] hover:bg-[#1F0080] rounded-md
+  }
+  *{
+  @apply font-sora 
+  }
+  ion-icon {
+  font-size: 25px;
+}
+
+}
