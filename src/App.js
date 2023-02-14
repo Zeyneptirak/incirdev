@@ -13,7 +13,7 @@ function App() {
       
     
         <Router>
-          <div className=''>
+          <div>
           
             <Routes>
               <Route path='/' element={<HomePage/>}></Route>

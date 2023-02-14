@@ -16,7 +16,6 @@ const Ecommerce = () => {
 
   return (
     <section className="flex mx-auto max-w-[1200px] h-full md:mt-[200px] items-center justify-center">
-      <Navbar></Navbar>
       <div className="flex flex-col">
         <h1 className="flex mx-auto text-[32px] md:text-[36px] leading-[45px] text-transparent pb-9 text-3xl bg-clip-text bg-gradient-to-r from-white to-gray-500 text-center font-[600]">
           E-Ticaret Paketlerimiz

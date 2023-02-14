@@ -1,10 +1,15 @@
 import React,{useState} from 'react';
 import logo from '../assets/logo.svg'
+import { AiOutlineMenu,AiOutlineClose } from 'react-icons/ai';
+
+
 import {Link } from 'react-scroll';
 const Navbar = () => {
 const [nav,setNav] = useState(false)
 const handleClick = ()=> setNav(!nav)
 const handleClose=()=> setNav(!nav)
+
+
   return (
     <div name="navbar" className='w-screen h-[80px] z-10 font-sora absolute top-0'> 
         <div className='px-2 flex items-center w-full h-full justify-between'>
@@ -26,8 +31,8 @@ const handleClose=()=> setNav(!nav)
                
                 
             </div>
-            <div className='md:hidden text-white ' onClick={handleClick}>
-                {!nav ? <ion-icon name="menu-outline"></ion-icon>: <ion-icon  name="close-outline"></ion-icon>}
+            <div className='md:hidden text-white text-xl' onClick={handleClick}>
+                {!nav ? <AiOutlineMenu/> : <AiOutlineClose/>}
             </div>
         </div>
         <ul className={!nav ? 'hidden' : 'absolute bg-card-bg  font-light w-full x-8 z-11'} >
