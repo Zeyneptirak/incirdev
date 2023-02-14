@@ -6,7 +6,7 @@ import mockup from '../assets/mockup.svg'
 export default function Hero() {
   return (
     <div className='flex h-full items-center justify-center flex-col '>
-      <Navbar></Navbar>
+      
         <div className='flex flex-col py-[137px] md:flex-row max-w-[1480px] w-full px-[16px] md:px-[156px] items-center'>
           <div className='flex flex-col justify-center md:items-start w-full text-center md:text-left'>
             <img className='flex absolute -z-1 md:px-[500px] mt-[600px] md:mt-0' src={Daire} alt=''/>
