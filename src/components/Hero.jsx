@@ -20,7 +20,7 @@ export default function Hero() {
                </p>
             </p>
             <p className="text-[15px] md:text-[20px] text-content-grey  font-Sora font-light text-gray">
-              Mersin merkezli çözüm tabanlı yazılım geliştirme stüdyosuyuz. Fikrinizi <p>dijital olarak yansıtmayı teklif ediyoruz. Hadi bize projelerinizden bahsedin.</p>
+              Mersin merkezli çözüm tabanlı yazılım geliştirme stüdyosuyuz. Fikrinizi  <p>dijital olarak yansıtmayı teklif ediyoruz. Hadi bize projelerinizden bahsedin.</p>
             </p>
              <div className='flex flex-col md:flex-row md:w-[405px]'>
                 <a href="callto:+905522451036" target="_blank" className='md:mx-[5px] relative py-2 w-[200px] md:w-full text-white border  border-indigo-600
@@ -35,14 +35,13 @@ export default function Hero() {
                     <img className='pl-3 ' src={vector}></img>
                    
                 </a>
-               
              </div>
           </div>
           <div >
             <img className='h-[300px] md:h-full relative z-10' src={mockup} alt="" />
           </div>
         </div>  
-      
+       
     </div>
   )
 }
