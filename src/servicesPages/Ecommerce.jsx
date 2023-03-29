@@ -64,11 +64,11 @@ const Ecommerce = () => {
               </div>
               <div className="flex flex-row gap-x-2">
                 <img className="" src={simsek} alt="" />{" "}
-                <p>İşletme Mail Heabı(1)</p>
+                <p>İşletme Mail Hesabı(1)</p>
               </div>
               <div className="flex flex-row gap-x-2">
                 <img className="" src={tik} alt="" />{" "}
-                <p>Özelleştirilebilir Üyelik Sayfsı</p>
+                <p>Özelleştirilebilir Üyelik Sayfası</p>
               </div>
               <div className="flex flex-row gap-x-2">
                 <img className="" src={tik} alt="" /> <p>Stok ve Fiyat</p>
@@ -197,11 +197,11 @@ const Ecommerce = () => {
               </div>
               <div className="flex flex-row gap-x-2">
                 <img className="" src={simsek} alt="" />{" "}
-                <p>İşletme Mail Heabı(5)</p>
+                <p>İşletme Mail Hesabı(5)</p>
               </div>
               <div className="flex flex-row gap-x-2">
                 <img className="" src={tik} alt="" />{" "}
-                <p>Özelleştirilebilir Üyelik Sayfsı</p>
+                <p>Özelleştirilebilir Üyelik Sayfası</p>
               </div>
               <div className="flex flex-row gap-x-2">
                 <img className="" src={tik} alt="" /> <p>Stok ve Fiyat</p>
@@ -330,11 +330,11 @@ const Ecommerce = () => {
               </div>
               <div className="flex flex-row gap-x-2">
                 <img className="" src={simsek} alt="" />{" "}
-                <p>İşletme Mail Heabı(10)</p>
+                <p>İşletme Mail Hesabı(10)</p>
               </div>
               <div className="flex flex-row gap-x-2">
                 <img className="" src={tik} alt="" />{" "}
-                <p>Özelleştirilebilir Üyelik Sayfsı</p>
+                <p>Özelleştirilebilir Üyelik Sayfası</p>
               </div>
               <div className="flex flex-row gap-x-2">
                 <img className="" src={tik} alt="" /> <p>Stok ve Fiyat</p>
@@ -416,10 +416,10 @@ const Ecommerce = () => {
             </a>
           </div>
         </div>
-        <div className="hiden md:flex mx-auto my-auto mt-[24px] max-w-[1200px] h-[241px]">
+        <div className="hiden md:flex mx-auto my-auto mt-[24px] max-w-[1200px] h-[241px] justify-center">
           <img className="hidden md:flex" src={ecommerce} alt="" />
-          <div className="hidden md:flex flex-col absolute z-10 ml-[80px] mt-[50px]">
-            <p className="text-white font-[400] text-[30px] tracking-[1px]">
+          <div className="hidden md:flex flex-col absolute z-10  mt-[50px] ">
+            <p className="text-white font-[400] text-[30px] tracking-[1px]  text-center">
               Diğer hizmetler ve daha özel bir plan için lütfen iletişime geçin.
             </p>
             <Link to="contact" smooth={true} offset={-100} duration={500}>
