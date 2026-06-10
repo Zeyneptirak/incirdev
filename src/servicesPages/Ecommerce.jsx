@@ -9,7 +9,7 @@ import ecommerce from "../assets/ecommerce.svg";
 import { Link } from "react-scroll";
 
 const Ecommerce = () => {
-  const [nav, setNav] = useState(false);
+ 
 
 
   return (

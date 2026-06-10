@@ -3,7 +3,7 @@ import vector from "../assets/Vector.svg"
 import Navbar from './Navbar'
 import Daire from '../assets/daire.svg'
 import mockup from '../assets/mockup.svg'
-import { MdCall } from 'react-icons/md';
+
 export default function Hero() {
   return (
     <div className='flex h-full items-center justify-center flex-col '>
@@ -29,9 +29,24 @@ export default function Hero() {
              
                    <MdCall />
                    burayı açınca divdeki md:w-[205px] erine md:w-[405px] olacak
-                </a> */}
+                </a> 
                 <a href="mailto:incir.dev@gmail.com" target="_blank" className='md:mx-[5px] relative py-2 w-[200px] md:w-full text-white border  border-indigo-600
     hover:bg-transparent bg-[#3E00FF] hover:bg-[#1F0080] rounded-lg my-5 flex px-4 justify-between items-center mx-auto'>
+                  <p>Bizimle Çalışın</p>
+                    <img className='pl-3 ' src={vector}></img>
+                   
+                </a>*/}
+                  <a 
+                  href="mailto:figa@figa.com" 
+                 className='md:mx-[5px] 
+                  relative 
+                  py-2 
+                  w-[200px] 
+                  md:w-full 
+                  text-white border  
+                  border-indigo-600
+    hover:bg-transparent 
+    bg-[#3E00FF] hover:bg-[#1F0080] rounded-lg my-5 flex px-4 justify-between items-center mx-auto'>
                   <p>Bizimle Çalışın</p>
                     <img className='pl-3 ' src={vector}></img>
                    

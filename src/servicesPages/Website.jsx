@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import video from "../assets/videoweb.mp4";
-import logo from "../assets/logo.svg";
+import React from "react";
+
 import analiz from "../assets/analiz.svg";
 import sektor from "../assets/sektor.svg";
 import ihtiyac from "../assets/ihtiyac.svg";
@@ -10,9 +9,7 @@ import test from "../assets/test.svg";
 import teslim from "../assets/teslim.svg";
 
 function Website() {
-  const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
-  const handleClose = () => setNav(!nav);
+
   return (
     <div className="flex flex-col h-full ">
       <div className="max-w-[1240px] mx-auto text-center ">
