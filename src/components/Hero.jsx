@@ -1,5 +1,4 @@
 import React from 'react'
-import vector from "../assets/Vector.svg"
 import Navbar from './Navbar'
 import Daire from '../assets/daire.svg'
 import mockup from '../assets/mockup.svg'
