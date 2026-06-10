@@ -7,8 +7,7 @@ import YazilimDestegi from './servicesPages/YazilimDestegi'
 import Eticaret from './servicesPages/Eticaret'
 import Mobil from './servicesPages/Mobil'
 import Egitim from './servicesPages/Egitim'
-import Nedir from './blog/Nedir';
-import BlogListe from './blog/BlogListe';
+
 function App() {
   return (
     <div className="bg-gradient-to-r from-card-bg to-right-bg px-[16px] bg-cover">
@@ -25,8 +24,7 @@ function App() {
               <Route path='/eticaret' element={<Eticaret/>}></Route>
               <Route path='/mobil' element={<Mobil/>}></Route>
               <Route path='/egitim' element={<Egitim/>}></Route>
-              <Route path='/blog' element={<BlogListe/>}></Route>
-              <Route path='/blogeticaret' element={<Nedir/>}></Route>
+     
 
             </Routes>
             

@@ -8,7 +8,6 @@ import Footer from "../components/Footer";
 import Arrow from "../components/Arrow";
 import Ecommerce from "../servicesPages/Ecommerce";
 import Website from "../servicesPages/Website";
-import Blog from "../blog/Blog";
 
 function HomePage() {
   return (
@@ -16,12 +15,12 @@ function HomePage() {
       <Arrow></Arrow>
       <Hero></Hero>
       <Services></Services>
-            <About></About>
+  <About></About>
       <Ecommerce></Ecommerce>
       <Works></Works>
       <Website></Website>
       <Contact></Contact>
-      <Blog></Blog>
+
       <Footer></Footer>
 
     </div>
