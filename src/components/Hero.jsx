@@ -36,7 +36,7 @@ export default function Hero() {
                    
                 </a>*/}
                   <a 
-                  href="mailto:figa@figa.com" 
+                  href="mailto:figa@figastudio.com" 
                  className='md:mx-[5px] 
                   relative 
                   py-2 
