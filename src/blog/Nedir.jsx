@@ -18,11 +18,11 @@ function Nedir() {
           </div>
         </div>
         <div className="hidden md:flex flex-row  md:mt-6 text-white">
-         <a href='/'>  <p className=''>incir.dev&emsp;&emsp;</p></a>
+    {/*   <a href='/'>  <p className=''>figa.com&emsp;&emsp;</p></a>
            <p className=''> >&emsp;&emsp;</p>
-         <a href='/blog'> <p className=''>incir blog&emsp;&emsp;</p></a> 
+         <a href='/blog'> <p className=''>figa blog&emsp;&emsp;</p></a> 
          <p className=''> >&emsp;&emsp;</p>
-         <a href=''><p>E-Ticaret Nedir?</p></a>
+         <a href=''><p>E-Ticaret Nedir?</p></a> */}   
         </div>
        <div className="max-w-[1200px] grid grid-cols-1 mx-auto">
         

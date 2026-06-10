@@ -1,5 +1,5 @@
 import React from "react";
-import { PenTool2, ExportSquare, Monitor, Code1, Mobile, Global, VideoPlay, ShoppingCart} from "iconsax-react";
+import { PenTool2, ExportSquare, Monitor, Code1, Mobile, VideoPlay, ShoppingCart} from "iconsax-react";
 
 function Services() {
   return (

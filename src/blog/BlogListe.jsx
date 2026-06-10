@@ -13,7 +13,7 @@ function BlogListe() {
           <img className="" src={ecommerce} alt="" />
           <div className="flex-col absolute z-10 text-center mt-[50px]">
             <p className="text-[26px] md:text-[30px] text-white font-bold tracking-[1px] mt-[4px] md:mt-0">
-             incir blog
+             Figa Blog
             </p>
             <p className="hidden md:flex text-white font-[400] text-[18px] text-transparent leading-[30px] bg-clip-text bg-gradient-to-r from-white to-gray-500 tracking-[1px] mt-[20px]">
             E-ticaret sektörü hakkında genel bilgiler, istatistikler ve detaylı inceleme makalelerini e-ticaret blogumuzda bulabilirsiniz.
@@ -22,9 +22,9 @@ function BlogListe() {
         </div>
       
        <div className="hidden md:flex flex-row  md:mt-6">
-         <a href='/'>  <p className=''>incir.dev&emsp;&emsp;</p></a>
+        {/* <a href='/'>  <p className=''>incir.dev&emsp;&emsp;</p></a>
            <p className=''> >&emsp;&emsp;</p>
-         <a href='/blog'> <p className=''>incir blog</p></a> 
+         <a href='/blog'> <p className=''>incir blog</p></a>  */} 
         </div>
     
       <div className="grid md:grid-cols-3 gap-y-5 gap-x-7 mt-[] md:mt-[40px] max-w-[1200px] mx-auto">

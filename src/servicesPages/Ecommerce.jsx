@@ -2,17 +2,15 @@ import React, { useState } from "react";
 import starter from "../assets/starter.svg";
 import growth from "../assets/growth.svg";
 import premium from "../assets/premium.svg";
-import tercih from "../assets/tercih.svg";
 import tik from "../assets/tik.svg";
 import simsek from "../assets/simsek.svg";
 import carpi from "../assets/carpi.svg";
 import ecommerce from "../assets/ecommerce.svg";
 import { Link } from "react-scroll";
-import Navbar from '../components/Navbar'
+
 const Ecommerce = () => {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
-  const handleClose = () => setNav(!nav);
+
 
   return (
     <section className="flex mx-auto max-w-[1200px] h-full md:mt-[200px] items-center justify-center">
