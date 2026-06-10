@@ -1,7 +1,7 @@
 import React from 'react'
 import ecommerce from "../assets/ecommerce.svg";
 import Navbar from '../components/Navbar';
-import { PenTool2, ExportSquare, Monitor, Code1, Mobile } from "iconsax-react";
+import { PenTool2, ExportSquare, Monitor, Code1 } from "iconsax-react";
 
 function BlogListe() {
   return (

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import starter from "../assets/starter.svg";
 import growth from "../assets/growth.svg";
 import premium from "../assets/premium.svg";

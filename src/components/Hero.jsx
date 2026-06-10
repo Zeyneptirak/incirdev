@@ -48,7 +48,7 @@ export default function Hero() {
     hover:bg-transparent 
     bg-[#3E00FF] hover:bg-[#1F0080] rounded-lg my-5 flex px-4 justify-between items-center mx-auto'>
                   <p>Bizimle Çalışın</p>
-                    <img className='pl-3 ' src={vector}></img>
+                 {/* <img className='pl-3' src={vector}></img> */}   
                    
                 </a>
              </div>
