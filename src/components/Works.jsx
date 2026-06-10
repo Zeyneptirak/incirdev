@@ -16,7 +16,7 @@ function Works() {
                 <div className="transition duration-300 ease-in-out group p-[24px] hover:bg-card-bg hover:border-[1px] hover:border-[#484848] bg-[#292929] text-white z-10 rounded-xl">
                 <div className='flex justify-between mb-4'>
                     <h1 className='font-[400] text-2xl'>nirvanadijital.com</h1>
-                    <a href='https://nirvanadijital.com/' className='group-hover:text-[#EAED69] text-white' target="_blank">
+                    <a href='https://nirvanadijital.com/' className='group-hover:text-[#EAED69] text-white' target="_blank"  rel="noopener noreferrer">
                         <ExportSquare size="16" variant="Outline" />
                     </a>
                     </div>
@@ -25,7 +25,7 @@ function Works() {
                 <div className="transition duration-300 ease-in-out group p-[24px] hover:bg-card-bg hover:border-[1px] hover:border-[#484848] bg-[#292929] text-white z-10 rounded-xl">
                 <div className='flex justify-between mb-4'>
                     <h1 className='font-[400] text-2xl'>dekorzade.com</h1>
-                    <a href='https://dekorzade.net/' className='group-hover:text-[#EAED69] text-white' target="_blank">
+                    <a href='https://dekorzade.net/' className='group-hover:text-[#EAED69] text-white' target="_blank"  rel="noopener noreferrer">
                         <ExportSquare size="16" variant="Outline" />
                     </a>
                     </div>
@@ -34,7 +34,7 @@ function Works() {
                 <div className="transition duration-300 ease-in-out group hover:border-[1px] hover:border-[#484848] bg-[#292929] p-[24px] hover:bg-card-bg text-white z-10 rounded-xl">
                     <div className='flex justify-between mb-4'>
                     <h1 className='font-[400] text-2xl'>erosnotary.com</h1>
-                    <a href='https://erosnotary.com/' target="_blank" className='group-hover:text-[#EAED69] text-white'>
+                    <a href='https://erosnotary.com/' target="_blank" className='group-hover:text-[#EAED69] text-white'  rel="noopener noreferrer">
                         <ExportSquare size="16" variant="Outline" />
                     </a>
                     </div>

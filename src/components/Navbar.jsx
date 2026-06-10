@@ -26,8 +26,7 @@ const handleClose=()=> setNav(!nav)
                     <li className='cursor-pointer hover:text-white hover:font-[600] text-content-grey tracking-[1px]'><Link to="contact" smooth={true} offset={720} duration={500}>Blog</Link></li>
                 </ul>
                 <div className='border-l-2 pl-4 border-content-grey flex items-center'>
-                <a href="https://www.instagram.com/figastudiocom/" className="text-content-yellow mr-3 flex items-center" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                <a className="text-content-yellow flex items-center"  href=""><ion-icon name="logo-twitter"></ion-icon></a>
+              
                 </div>
                
                 
@@ -44,8 +43,7 @@ const handleClose=()=> setNav(!nav)
             <li className='border-b-2 border-menuLine text-content-grey hover:text-white w-full'><Link onClick={handleClose} to="contact" smooth={true} offset={-170} duration={500}>İletişim</Link></li>
             <li className='border-b-2 border-menuLine text-content-grey hover:text-white w-full'><Link to="contact" smooth={true} offset={900} duration={500}>Blog</Link></li>
              <div className='border-l-2 pl-4 border-content-grey flex items-center my-4'>
-                <a className="text-content-yellow hover:text-purple mr-3 flex items-center mx-auto my-auto" href=""><ion-icon name="logo-instagram"></ion-icon></a>
-                <a className="text-content-yellow hover:text-purple  flex items-center mx-auto my-auto"  href=""><ion-icon name="logo-twitter"></ion-icon></a>
+              
              </div>
         </ul>
        
