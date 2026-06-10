@@ -17,13 +17,11 @@ function Website() {
     <div className="flex flex-col h-full ">
       <div className="max-w-[1240px] mx-auto text-center ">
         <p className="text-[20px] md:text-[29px] text-transparent leading-[30px] bg-clip-text bg-gradient-to-r from-white to-gray-500 font-bold tracking-[1px]">
-          WEB YAZILIM- WEB TABANLI YAZILIM
+          FİKİRDEN YAYINA KADAR YANINIZDAYIZ!
         </p>
         <p className="flex text-[13px] md:text-[16px] text-transparent leading-[30px] bg-clip-text bg-gradient-to-r from-white to-gray-300 font-extralight tracking-[1px] md:my-5 ">
           {" "}
-          Kurumsal ve bireysel ihtiyaçlara yönelik web yazılım projeleri
-          geliştiriyoruz. Hayalinizdeki projeleri dijital dünyaya taşıyacak
-          yazılım ve kodlama çalışmalarını hayata geçiriyoruz.{" "}
+          İhtiyaç analizi, tasarım, yazılım geliştirme ve dijital pazarlama süreçlerini tek çatı altında yönetiyor;<p>işletmeniz için sürdürelebilir dijital çözümler üretiyoruz.</p>{" "}
         </p>
       </div>
   
@@ -32,7 +30,7 @@ function Website() {
         Proje Sürecimiz
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-10 md:gap-x-[90px] gap-y-8 md:gap-y-[80px] max-w-[340px] md:max-w-[1240px] font-extralight justify-between my-10 leading-[30px] text-primary  tracking-[1px] text-[12px] text-center  md:text-[14px] mx-auto md:mt-[70px]">
-        <div className="text-center border bg-card-bg hover:bg-white text-white hover:text-card-bg border-purple rounded-[24px] h-[200px] md:h-[300px] ">
+        <div className="text-center border bg-card-bg hover:bg-white text-white hover:text-card-bg border-purple rounded-[24px] h-[205px] md:h-[300px] ">
           <div className="mx-2">
             <img
               className="w-[70px] h-[70px] flex mx-auto drop-shadow-xl mt-3"
@@ -52,7 +50,7 @@ function Website() {
             </div>
           </div>
         </div>
-        <div className="border bg-card-bg hover:bg-white text-white hover:text-card-bg border-purple rounded-[24px] h-[200px] md:h-[300px]">
+        <div className="border bg-card-bg hover:bg-white text-white hover:text-card-bg border-purple rounded-[24px] h-[208px] md:h-[300px]">
           <div className="mx-2">
             <img
               className="w-[70px] h-[70px] flex mx-auto drop-shadow-xl mt-3"
@@ -92,7 +90,7 @@ function Website() {
            </div>
           </div>
         </div>
-        <div className="border bg-card-bg hover:bg-white text-white hover:text-card-bg border-purple rounded-[24px] h-[220px] md:h-[300px] mt-3">
+        <div className="border bg-card-bg hover:bg-white text-white hover:text-card-bg border-purple rounded-[24px] h-[210px] md:h-[300px] mt-3">
           <div className="mx-2">
             <img
               className="w-[70px] h-[70px] flex mx-auto drop-shadow-xl "
@@ -112,7 +110,7 @@ function Website() {
             </div>
           </div>
         </div>
-        <div className="border bg-card-bg hover:bg-white text-white hover:text-card-bg border-purple rounded-[24px] h-[260px] md:h-[300px]">
+        <div className="border bg-card-bg hover:bg-white text-white hover:text-card-bg border-purple rounded-[24px] h-[270px] md:h-[300px]">
           <div className="mx-2">
             <img className="w-[70px] h-[70px] flex mx-auto drop-shadow-xl mt-3" src={code} alt="" />
             <div className="flex flex-col mt-2">
@@ -120,7 +118,7 @@ function Website() {
               {" "}
               5. Kodlama{" "}
             </p>
-            <p className="md:mt-[18px] mt-3">
+            <p className="md:mt-[18px] mt-2">
               {" "}
               Gereksiz kod yapısından arındırılan,
               Google Uyumlu, 

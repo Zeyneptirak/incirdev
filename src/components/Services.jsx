@@ -1,5 +1,5 @@
 import React from "react";
-import { PenTool2, ExportSquare, Monitor, Code1, Mobile } from "iconsax-react";
+import { PenTool2, ExportSquare, Monitor, Code1, Mobile, Global, VideoPlay, ShoppingCart} from "iconsax-react";
 
 function Services() {
   return (
@@ -32,21 +32,21 @@ function Services() {
               </div>
             </div>
        
-          <h1>Dinamik Websiteler</h1>
+          <h1>Website Tasarımı</h1>
           <p className="text-content-grey text-[14px] mt-2 font-[300]">
-            Modern ve hızlı teknolojilerle geliştirilmiş dinamik website.
+            Modern ve hızlı teknolojilerle geliştirilmiş website.
           </p>
         </div>
         <div className="transition duration-300 ease-in-out group hover:border-[1px] border-[1px] border-card-bg hover:border-[#484848] hover:bg-[#292929] p-[24px] bg-card-bg text-white z-10 rounded-xl">
           <div className="flex justify-between mb-4">
-            <Code1 size="32" color="#FFFFFF" variant="Bulk" />
+                   <VideoPlay size="31" color="#FFFFFF" variant="Bulk" />
             <div className="group-hover:text-[#EAED69] text-white">
               <ExportSquare size="16" variant="Outline" />
             </div>
           </div>
-          <h1>Yazılım Desteği</h1>
+          <h1>Sosyal Medya Yönetimi</h1>
           <p className="text-content-grey text-[14px] mt-2 font-[300]">
-            Güncel projeniz için teknoloji ve yazılım desteği.
+            İçerik planlama, paylaşım ve hesap yönetimi hizmetleri.
           </p>
         </div>
         <div className="transition duration-300 ease-in-out group hover:border-[1px] border-[1px] border-card-bg hover:border-[#484848] hover:bg-[#292929] p-[24px] bg-card-bg text-white z-10 rounded-xl">
@@ -56,14 +56,14 @@ function Services() {
                 <ExportSquare size="16" variant="Outline" />
               </div>
             </div>{" "}
-          <h1>Mobil Uygulamalar</h1>
+          <h1>İçerik Üretimi</h1>
           <p className="text-content-grey text-[14px] mt-2 font-[300]">
-            iOS ve Android platformları için mobil uygulama yazılımı.
+            Reels, ürün çekimleri ve marka içerikleri.
           </p>
         </div>
         <div className="transition duration-300 ease-in-out group hover:border-[1px] border-[1px] border-card-bg hover:border-[#484848] hover:bg-[#292929] p-[24px] bg-card-bg text-white z-10 rounded-xl">
             <div className="flex justify-between mb-4">
-              <Code1 size="32" color="#FFFFFF" variant="Bulk" />
+                 <Code1 size="32" color="#FFFFFF" variant="Bulk" />
               <div className="group-hover:text-[#EAED69] text-white">
                 <ExportSquare size="16" variant="Outline" />
               </div>
@@ -75,14 +75,14 @@ function Services() {
         </div>
         <div className="transition duration-300 ease-in-out group hover:border-[1px] border-[1px] border-card-bg hover:border-[#484848] hover:bg-[#292929] p-[24px] bg-card-bg text-white z-10 rounded-xl">
           <div className="flex justify-between mb-4">
-            <Code1 size="32" color="#FFFFFF" variant="Bulk" />
+            <ShoppingCart size="31" color="#FFFFFF" variant="Bulk" />
             <div className="group-hover:text-[#EAED69] text-white">
               <ExportSquare size="16" variant="Outline" />
             </div>
           </div>
-          <h1>Yazılım Eğitimleri</h1>
+          <h1>Meta Reklam Yönetimi</h1>
           <p className="text-content-grey text-[14px] mt-2 font-[300]">
-            Çok yakında..
+            Instagram ve Facebook reklamlarıyla hedef kitleye ulaşmak.
           </p>
         </div>
       </div>

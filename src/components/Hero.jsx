@@ -20,15 +20,16 @@ export default function Hero() {
                </p>
             </p>
             <p className="text-[15px] md:text-[20px] text-content-grey  font-Sora font-light text-gray">
-              Mersin merkezli çözüm tabanlı yazılım geliştirme stüdyosuyuz. Fikrinizi  <p>dijital olarak yansıtmayı teklif ediyoruz. Hadi bize projelerinizden bahsedin.</p>
-            </p>
-             <div className='flex flex-col md:flex-row md:w-[405px]'>
-                <a href="callto:+905522451036" target="_blank" className='md:mx-[5px] relative py-2 w-[200px] md:w-full text-white border  border-indigo-600
+              Mersin merkezli çözüm tabanlı marka geliştirme stüdyosuyuz. Web sitesi  <p>tasarımı, sosyal medya yönetimi, içerik üretimi ve reklam çözümleriyle fikrinizi <p>dijital olarak yansıtmayı teklif ediyoruz. Hadi bize projelerinizden bahsedin.</p>
+            </p></p>
+             <div className='flex flex-col md:flex-row md:w-[205px]'>
+                {/* <a href="callto:+905522451036" target="_blank" className='md:mx-[5px] relative py-2 w-[200px] md:w-full text-white border  border-indigo-600
     hover:bg-transparent bg-[#3E00FF] hover:bg-[#1F0080] rounded-lg my-5 flex px-4 justify-between items-center mx-auto'>
                    <p>0552 245 10 36</p>
              
                    <MdCall />
-                </a>
+                   burayı açınca divdeki md:w-[205px] erine md:w-[405px] olacak
+                </a> */}
                 <a href="mailto:incir.dev@gmail.com" target="_blank" className='md:mx-[5px] relative py-2 w-[200px] md:w-full text-white border  border-indigo-600
     hover:bg-transparent bg-[#3E00FF] hover:bg-[#1F0080] rounded-lg my-5 flex px-4 justify-between items-center mx-auto'>
                   <p>Bizimle Çalışın</p>

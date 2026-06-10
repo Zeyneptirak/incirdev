@@ -4,7 +4,7 @@ import bgImgMobil from '../assets/contactMobil.png'
 import vector from "../assets/Vector.svg"
 const Contact = () => {
     return (
-        <div name="contact">
+        <div name="contact" className=''>
             <h1 className='text-[36px] leading-[45px] text-transparent pb-9 text-3xl bg-clip-text bg-gradient-to-r from-white to-content-grey text-center font-[600]'>İletişim</h1>
         <div  className='mx-auto my-auto grid md:grid-cols-2 max-w-[1200px]'>
            <div>
@@ -26,9 +26,8 @@ const Contact = () => {
                <button className='mx-auto md:ml-0 py-2 px-10 text-white bg- hover:bg-[#1F0080] rounded-lg my-5 flex flex-row'>Gönder<img className='ml-8 py-1' src={vector} alt=' '></img></button>
                </div> 
             </form>
-           
            </div>
-          
+          <div className='h-0 md:h-[330px]'></div>
         </div></div>
     );
 }
